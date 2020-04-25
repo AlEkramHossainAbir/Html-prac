@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Facebook log in or sign up</title>
+    <title>Facebook - log in or sign up</title>
     <link rel="shortcut icon" href="fb.png">
     <link rel="stylesheet" href="fb.css">
 
@@ -12,127 +12,148 @@
 <body>
 
     <header>
-    <div class="1st_Div">lets check</div>
-        <a href="facebook.html" title="go to Facebook home" id="a">facebook</a>
-        <div class="div1">
-            <table>
-                <tr>
-                    <th>Email or phone</td>
-                    <th>Password</td>
-                </tr>
-                <tr>
-                    <td> <input type="text"></td>
-                    <td> <input type="password"></td>
-                    <td><input type="submit" value="log in"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><a class="forget">Forgotten account?</a></td>
-                </tr>
-            </table>
+        <div class="header_control">
+            <div class="align">
+                <div class="logo">
+                    <a href="facebook.html"> <img src="images.png"></a>
+                </div>
+                <div class="login">
+                    <table>
+                        <tr>
+                            <th>
+                                <p>Email or phone</p>
+                                </td>
+                            <th>
+                                <p>Password</p>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" class="input_txt"></td>
+                            <td> <input type="password" class="input_txt"></td>
+                            <td><a href="facebook.html"> <input type="submit" value="Log In" class="logged"></a></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="facebook.html" class="forget">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
         </div>
     </header>
-    <main>
 
-
-        <div class="div2">
-            <div class="div3">
-                <p id="b">Facebook helps you connect and share with the people in your life</p><br>
+    <div class="main_control">
+        <main>
+            <div class="left_part">
+                <p>Facebook helps you connect and share with the people in your life.</p>
                 <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/OBaVg52wtTZ.png" id="connect">
             </div>
-            <form>
-                <h1>Create an Account</h1>
-                <h3>It's Quick and Easy</h3>
-                <label for="first name"></label>
-                <input type="text" class="box" placeholder="First Name" required>
-                <label for="Surname"></label>
-                <input type="text" class="box" placeholder="Surname" required>
-                <div class="email">
-                    <label for="address"></label>
-                    <input type="text" class="box" placeholder="Mobile Number or Email address" required
-                        style="width: 300px;">
+            <div class="right_part">
+                <div>
+                    <h1>Create an account</h1>
                 </div>
-                <div class="newpass">
-                    <label for="npass"></label>
-                    <input type="password" class="box" placeholder="New Password" required style="width: 300px;">
+                <div>
+                    <p>It's quick and easy.</p>
                 </div>
-                <br>
-                <label for="birthday">Birthday</label>
-                <br>
-                <select name="Day">
-                    <option>Day</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                    <option>13</option>
-                    <option>14</option>
-                    <option>15</option>
-                    <option>16</option>
-                    <option>17</option>
-                    <option>18</option>
-                    <option>19</option>
-                    <option>20</option>
-                    <option>21</option>
-                    <option>22</option>
-                    <option>23</option>
-                    <option>24</option>
-                    <option>25</option>
-                    <option>26</option>
-                    <option>27</option>
-                    <option>28</option>
-                    <option>29</option>
-                    <option>30</option>
-                    <option>31</option>
-                </select>
-                <select name="Month">
-                    <option>Month</option>
-                    <option>January</option>
-                    <option>February</option>
-                    <option>March</option>
-                    <option>April</option>
-                    <option>May</option>
-                    <option>June</option>
-                    <option>July</option>
-                    <option>August</option>
-                    <option>September</option>
-                    <option>October</option>
-                    <option>November</option>
-                    <option>December</option>
-                </select>
-                <select name="Year">
-                    <option>Year</option>
-                    <option>2020</option>
-                    <option>2019</option>
-                    <option>2018</option>
-                    <option>2017</option>
-                    <option>2016</option>
-                    <option>2015</option>
-                    <option>2014</option>
-                    <option>2013</option>
-                    <option>2012</option>
-                    <option>2011</option>
-                    <option>2010</option>
-                    <option>2009</option>
-                    <option>2008</option>
-                    <option>2007</option>
-                    <option>2006</option>
-                    <option>2005</option>
-                    <option>2004</option>
-                    <option>2003</option>
-                    <option>2002</option>
-                </select>
-                <br>
+                <div class="tb_form">
+                    <form>
+                        <label for="first name"></label>
+                        <input type="text" class="box" placeholder="  First Name" required>
+                        <label for="Surname"></label>
+                        <input type="text" class="box" placeholder="  Surname" required>
+                        <div class="email">
+                            <label for="address"></label>
+                            <input type="text" class="box1" placeholder="  Mobile number or email address" required>
+
+                        </div>
+                        <div class="newpass">
+                            <label for="npass"></label>
+                            <input type="password" class="box1" placeholder="  New password" required>
+                        </div>
+                </div>
+                <div class="Birthday">
+                    <label for="birthday">Birthday</label>
+                    <br>
+                    <select name="Day">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select name="Month">
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>Aug</option>
+                        <option>Sept</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                    <select name="Year">
+                        <option>Year</option>
+                        <option>2020</option>
+                        <option>2019</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                        <option>2012</option>
+                        <option>2011</option>
+                        <option>2010</option>
+                        <option>2009</option>
+                        <option>2008</option>
+                        <option>2007</option>
+                        <option>2006</option>
+                        <option>2005</option>
+                        <option>2004</option>
+                        <option>2003</option>
+                        <option>2002</option>
+                    </select>
+                </div>
+
                 <div class="gender">
-                    <label for="gender">Gender</label>
+                    <div>
+                        <label for="gender">Gender</label>
+
+                    </div>
+
                     <br>
                     <input type="radio" name="gender" required>
                     <label for="male">Male</label>
@@ -141,16 +162,24 @@
                     <input type="radio" name="gender" required>
                     <label for="custom">Custom</label>
                 </div>
-               
-                    <h5>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy.
-                        You may receive SMS notifications from us and can opt out at any time.</h5>
+                <div class="para">
+                    By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy.
+                    You may receive SMS notifications from us and can opt out at any time.
+                </div>
                 <input type="submit" value="Sign Up" class="signup">
-            </form>
-            <br>
+                <div class="last_message">
+                    <a href="#">Create a Page</a> for a celebrity, band or business.
+                </div>
+                </form>
 
-        </div>
-        <p class="last_message">Create a Page for a celebrity, band or business.</p>
-    </main>
+            </div>
+
+        </main>
+
+    </div>
+
+
+    
     <footer>
         <div class="lng">
             <a href="facebook.html" title="English (UK)">English (UK)</a>
